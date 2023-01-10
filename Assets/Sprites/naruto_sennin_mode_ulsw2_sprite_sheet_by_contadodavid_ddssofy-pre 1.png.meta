@@ -1,0 +1,674 @@
+fileFormatVersion: 2
+guid: 2d62d04f8abf6614a82862ef27dd2251
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 963
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2c6c00ecd7fca41bc24339b34d57f9
+      internalID: 1041274291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_1
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 963
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5259757468919a14d90f4aeb0bfd30ea
+      internalID: -762161698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 963
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae2012ed30b1db4aa55077aeb452bed
+      internalID: -968634615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 963
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2ebc19486ee56468ab6f369aaf3ed8
+      internalID: -808606435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_4
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 963
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c762b35dcdcb449acc7d8b713eebe8
+      internalID: 762025650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_5
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 963
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffff9051bac432e4db816c833c27fcb8
+      internalID: 2098715074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 890
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7339300243c23784d9a4461e6e31089e
+      internalID: 136762224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 896
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80aa3958cbe043f439bfb65c12eda932
+      internalID: -1569807414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 892
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5832a8511f8ae4e8da6852dca84f54
+      internalID: -1112238392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_9
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 892
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1a93d3e59d074478d492a958ece08e
+      internalID: -229030588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_10
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 896
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda01e4c4c0b2c4409136010b277733d
+      internalID: -281461218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_11
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 890
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da130c273d372245acc74f4216db0ea
+      internalID: 1693016563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 804
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf27f1c0b7190448907f48f6879adb8
+      internalID: -1606098538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_13
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 804
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35d299fc67bf544d921ccff1efd0cc0
+      internalID: 1146577854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_14
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 804
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0152619331d3f8f45998fc93ca910f8d
+      internalID: -629325850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_15
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 804
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa4bb6d97b865b4abb6b3d289dee0c9
+      internalID: -899286468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_16
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 793
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d344c296bac6db5469677bb8b55542cf
+      internalID: -1828243145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_17
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 724
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553e2d09c929792479b408be129e61e6
+      internalID: -50334521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_18
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 724
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b58711e8dc93414cbb2e0d3a1de92a3
+      internalID: 192669647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 724
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f28831c77a53344b45880570f467d9
+      internalID: -645606479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_20
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 724
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b739d3165808d844089dbab16688658e
+      internalID: -1287589972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_21
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 724
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc24257a30ab3b4c8e04dd1aa919f15
+      internalID: -1887920137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_22
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 724
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0eef16494ee9643a547696938f5ef0
+      internalID: 1948728150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_23
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 724
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4d5ccc7e542e842af340d8e1a4fda0
+      internalID: 1614998847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_4: 762025650
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_10: -281461218
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_18: 192669647
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_16: -1828243145
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_5: 2098715074
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_17: -50334521
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_23: 1614998847
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_11: 1693016563
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_14: -629325850
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_1: -762161698
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_13: 1146577854
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_2: -968634615
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_0: 1041274291
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_7: -1569807414
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_22: 1948728150
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_3: -808606435
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_8: -1112238392
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_12: -1606098538
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_19: -645606479
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_21: -1887920137
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_6: 136762224
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_9: -229030588
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_15: -899286468
+      naruto_sennin_mode_ulsw2_sprite_sheet_by_contadodavid_ddssofy-pre 1_20: -1287589972
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
