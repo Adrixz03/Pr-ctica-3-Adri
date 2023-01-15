@@ -3,41 +3,40 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
-public float speed;
-private Rigidbody2D rb;
-private Animator animator;
-SpriteRenderer rend;
 {
+    private Rigidbody2D rb;
+    public float velocity;
+    public float jumpSpeed;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.A))
+        {
+            rb.velocity = new Vector3(-10, 0, 0);
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            rb.velocity = new Vector3(10, 0, 0);
+        }
+        else
+        {
+            rb.velocity = new Vector3(0, 0, 0);
+        }
+        if (Input.GetKey(KeyCode.Space) && CheckGround.isGrounded)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+        }
     }
+
+    
 }
 
-void Movement()
-{
-    if(Input.GetKey(KeyCode.D))
-    {
-        animator.PLay("correr");
-        rend.flipX = true;
-        if (Transform.position.x < b.max.x)
-            rb.velocity = new Vector2(speed, 0);
-    }
-else if(Input.GetKey(KeyCode.A))
-        {
-            animator.PLay("correr");
-        rend.flipX = false;
-            if (Transform.position.x > b.min.x)
-                rb.velocity = new Vector2(-speed, 0);
-        }
-else
-    {
-        animator.Play("idle");
-    }
+
