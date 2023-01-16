@@ -9,24 +9,34 @@ public class Player : MonoBehaviour
     public float jumpSpeed;
     public LayerMask mascaraSuelo;
     public float rayDistance = 1.5f;
+    private Animator animator;
+    SpriteRenderer rend;
 
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator= GetComponent<Animator>();
+        rend= GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
+    
     void Update()
     {
         if (Input.GetKey(KeyCode.A))
         {
+            animator.Play("correr");
+            rend.flipX = true;
             rb.velocity = new Vector3(-10, rb.velocity.y, 0);
         }
         else if (Input.GetKey(KeyCode.D))
         {
+            animator.Play("correr");
+            rend.flipX = false;
             rb.velocity = new Vector3(10, rb.velocity.y, 0);
+
         }
         else
         {
@@ -59,6 +69,7 @@ public class Player : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawRay(transform.position, Vector2.down * rayDistance);
     }
+
 } 
 
 
