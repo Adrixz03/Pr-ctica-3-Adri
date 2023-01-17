@@ -27,13 +27,14 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.A))
         {
-            animator.Play("correr");
+            animator.SetBool("running", true);
             rend.flipX = true;
             rb.velocity = new Vector3(-10, rb.velocity.y, 0);
+            
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            animator.Play("correr");
+            animator.SetBool("running", true);
             rend.flipX = false;
             rb.velocity = new Vector3(10, rb.velocity.y, 0);
 
@@ -41,6 +42,7 @@ public class Player : MonoBehaviour
         else
         {
             rb.velocity = new Vector3(0, rb.velocity.y, 0);
+            animator.SetBool("running", false);
         }
         if (Input.GetKey(KeyCode.Space) && CheckGround.IsGrounded)
         {
