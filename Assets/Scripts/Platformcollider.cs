@@ -7,7 +7,7 @@ public class Platformcollider : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Player p = collision.GetComponent<Player>();
-        if (p)
+        if(p)
         {
             p.gameObject.transform.parent = transform.parent;
         }

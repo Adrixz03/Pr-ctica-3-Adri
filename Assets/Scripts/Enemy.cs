@@ -31,4 +31,5 @@ private void OnCollisionEnter2D(Collision2D other)//metodo destroy
         transform.position = Vector2.MoveTowards(transform.position, new Vector2(ObjectFollow.transform.position.x, transform.position.y), speed * Time.deltaTime);
         transform.up = ObjectFollow.position - transform.position;
     }
+    
 }
