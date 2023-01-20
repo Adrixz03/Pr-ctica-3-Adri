@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 { 
@@ -13,7 +14,8 @@ private void OnCollisionEnter2D(Collision2D other)//metodo destroy
     if (other.collider.GetComponent<Player>())
     { 
         Destroy(other.gameObject);
-    }
+        SceneManager.LoadScene("SampleScene");
+        }
 }
 
     // Start is called before the first frame update
@@ -29,7 +31,7 @@ private void OnCollisionEnter2D(Collision2D other)//metodo destroy
             return;
 
         transform.position = Vector2.MoveTowards(transform.position, new Vector2(ObjectFollow.transform.position.x, transform.position.y), speed * Time.deltaTime);
-        transform.up = ObjectFollow.position - transform.position;
+      
     }
     
 }

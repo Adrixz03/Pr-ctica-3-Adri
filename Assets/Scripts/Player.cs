@@ -47,6 +47,7 @@ public class Player : MonoBehaviour
         if (Input.GetKey(KeyCode.Space) && CheckGround.IsGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
+            animator.Play("salto");
         }
     }
     bool IsGrounded()
