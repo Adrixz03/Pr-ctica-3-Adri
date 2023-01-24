@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Platform : MonoBehaviour
 {
+    //movimiento de la plataforma
     private Rigidbody2D rb;
     float currentTime;
     public float

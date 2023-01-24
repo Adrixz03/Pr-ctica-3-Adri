@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player2 : MonoBehaviour
 {
-    //Declaro las variables
+    //declaro las variables
     private Rigidbody2D rb;
     public float velocity;
     public float jumpSpeed;
@@ -12,31 +12,32 @@ public class Player : MonoBehaviour
     public float rayDistance = 1.5f;
     private Animator animator;
     SpriteRenderer rend;
+ 
 
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animator= GetComponent<Animator>();
-        rend= GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+        rend = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
-    
+
     void Update()
     {
         //movimiento del jugador y animaciones
         if (Input.GetKey(KeyCode.A))
         {
-            animator.SetBool("running", true);
+            animator.SetBool("running2", true);
             rend.flipX = true;
             rb.velocity = new Vector3(-10, rb.velocity.y, 0);
-            
+
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            animator.SetBool("running", true);
+            animator.SetBool("running2", true);
             rend.flipX = false;
             rb.velocity = new Vector3(10, rb.velocity.y, 0);
 
@@ -44,12 +45,11 @@ public class Player : MonoBehaviour
         else
         {
             rb.velocity = new Vector3(0, rb.velocity.y, 0);
-            animator.SetBool("running", false);
+            animator.SetBool("running2", false);
         }
         if (Input.GetKey(KeyCode.Space) && CheckGround.IsGrounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
-            animator.Play("salto");
         }
     }
     bool IsGrounded()
@@ -62,8 +62,8 @@ public class Player : MonoBehaviour
         {
             Debug.Log(resultado.collider.gameObject.name);
             //if (resultado.collider.gameObject.CompareTag("suelo"))
-           // {
-                return true;
+            // {
+            return true;
             //}
         }
 
@@ -75,8 +75,4 @@ public class Player : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawRay(transform.position, Vector2.down * rayDistance);
     }
-
-} 
-
-
-
+}

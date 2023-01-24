@@ -1,0 +1,916 @@
+fileFormatVersion: 2
+guid: 44fe6e284bf0f0a46b2972f4edf2539a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 488
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cf700b20729414baf2054dbfc26227
+      internalID: -1326094738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 488
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca5298aa3ac8b74486122b6f05e1840
+      internalID: 1880189923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 488
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2ad0b363daa3e40bc2878337e15d6c
+      internalID: 909900853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 487
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757f16d3da9b91945bfeb94e63ff141b
+      internalID: 676676937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 487
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9311fd31c58faa94181e1125ab7b961a
+      internalID: 422819374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 486
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18ae2fa9b4e8c441bd0703e1f8b158b
+      internalID: 870343500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 486
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046200a24f951ea4c91c68a002694b7f
+      internalID: -908569224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 486
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6016625dd9ed8614f9d9359ff84391c8
+      internalID: -1598875129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 484
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0593ea5e9596b41bf5de2443ecc92a
+      internalID: 1590952774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 481
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e33e2fc35e0ef944910603cba941933
+      internalID: 1696215481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 480
+        width: 83
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5bedf0350c1064b96e73d283dbfebb
+      internalID: -1313574909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 358
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b218265699e05344bd588adcbe2ad61
+      internalID: 703977749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 358
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5681e40cde6656645802ba3a813a1bc3
+      internalID: 1946254877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 353
+        width: 18
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa6349f95a1eed45a09745a3449ac40
+      internalID: 1997124869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 353
+        width: 42
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c13a44a349736343abea552f10d493f
+      internalID: -1022776233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 353
+        width: 66
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a450fae782a1e443968f497b6caa422
+      internalID: -2065387592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 229
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3242df1e10d95f4fbd0566006d6a744
+      internalID: -861188175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 229
+        width: 49
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638925f707e45be48a6ded99da9276d5
+      internalID: -300556309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 227
+        width: 57
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200422da9845faa44b4ae24323d294d2
+      internalID: 822650069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 216
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796ada2f23ae1c44f983dac889802840
+      internalID: -125175030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 217
+        width: 35
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683214ad09992404888f021e02df0156
+      internalID: 519555542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 217
+        width: 40
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385e68828b865474f96e4b034fb2c33e
+      internalID: -385170072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 218
+        width: 94
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabacfdb656a6e14991bcd172391ad39
+      internalID: -1816354057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 202
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92be31a5195653d4eb780895354a553d
+      internalID: -1938971567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 210
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82d2229903f861428c0d8480b29bbe8
+      internalID: -1586490256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 71
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2e034cac9508f49b35fd8ec38d70d2
+      internalID: -131507411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 71
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1ddcfb5a2db3647967b9398622dc61
+      internalID: -1999835552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 71
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7c0cefbf3145e44a11c3b381ce49a7
+      internalID: 104769540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 71
+        width: 51
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42457d4b9475d4049806812fc2741315
+      internalID: -865751012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 71
+        width: 57
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e8bbc15d5a2b84a8d4237184037cb9
+      internalID: -1240691052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 71
+        width: 74
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d246ea9b16f8543ac91c0c1273be6d
+      internalID: 93921637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 71
+        width: 62
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2b7c1c25d8993469e686d7aa158afe
+      internalID: -496829059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 71
+        width: 66
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbaeab1be48981442bb773a1d54d149c
+      internalID: 1338728882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 70
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e65cce6911fd740b3bc05aefb12ea2
+      internalID: -735291198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 72
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459c7b6efb68dba488c3eac50b919329
+      internalID: -178497413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_33: -735291198
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_4: 422819374
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_16: -861188175
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_25: -131507411
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_31: -496829059
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_7: -1598875129
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_10: -1313574909
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_21: -385170072
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_27: 104769540
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_1: 1880189923
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_30: 93921637
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_5: 870343500
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_29: -1240691052
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_6: -908569224
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_15: -2065387592
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_34: -178497413
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_14: -1022776233
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_17: -300556309
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_26: -1999835552
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_0: -1326094738
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_13: 1997124869
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_20: 519555542
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_8: 1590952774
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_32: 1338728882
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_11: 703977749
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_9: 1696215481
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_2: 909900853
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_3: 676676937
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_12: 1946254877
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_18: 822650069
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_22: -1816354057
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_19: -125175030
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_24: -1586490256
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_28: -865751012
+      BALLESTERO_MIGUEL_ADRIAN_A3D_AE2D3D_06_spritesheet_23: -1938971567
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

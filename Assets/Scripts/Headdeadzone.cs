@@ -9,6 +9,7 @@ public class Headdeadzone : MonoBehaviour
     }
         private void OnTriggerEnter2D(Collider2D collision)
         {
+            //Deadzone de la cabeza del enemigo
             if (collision.GetComponent<Player>())
             {
 

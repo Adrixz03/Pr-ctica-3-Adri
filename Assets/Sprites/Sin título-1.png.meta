@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1149e1f84a218ba4d9065101ac7566b5
+guid: 5b24512d11e79e346ab4273ad554a8da
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Card_0
+      name: "Sin t\xEDtulo-1_0"
       rect:
         serializedVersion: 2
-        x: 5
-        y: 6
-        width: 12
-        height: 11
+        x: 0
+        y: 0
+        width: 34
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a98687375cc1bd04b819760853cc41c8
-      internalID: 1139358101
+      spriteID: 0322edb8956516d48ac8106edca7ed14
+      internalID: 1043137876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Card_1
+      name: "Sin t\xEDtulo-1_1"
       rect:
         serializedVersion: 2
-        x: 31
-        y: 7
-        width: 8
-        height: 11
+        x: 43
+        y: 0
+        width: 33
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dd01e586a3c2c64eb95133f1d8849c1
-      internalID: -1256869348
+      spriteID: 9466bad6baf568449b118928532c6700
+      internalID: -90522106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Card_2
+      name: "Sin t\xEDtulo-1_2"
       rect:
         serializedVersion: 2
-        x: 57
-        y: 8
-        width: 4
-        height: 11
+        x: 85
+        y: 0
+        width: 33
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,62 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d3f9cf944e0fab44ae37f2b86187d4b
-      internalID: -117322179
+      spriteID: d5070cd22ae32764b89cb6e71bd5c5ec
+      internalID: -1689614731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Card_3
-      rect:
-        serializedVersion: 2
-        x: 79
-        y: 8
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e2f99e6a60a9064ebd3ab07ca981caa
-      internalID: 1306386644
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Card_4
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 7
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a72a5f493ddb1741a926c7d74db229e
-      internalID: 318227774
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Card_5
+      name: "Sin t\xEDtulo-1_3"
       rect:
         serializedVersion: 2
         x: 127
-        y: 6
-        width: 8
-        height: 11
+        y: 0
+        width: 33
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57d156089aaa93446a29c14601a3d27e
-      internalID: -337486890
+      spriteID: 257802a1828c73e4d90755ba1f895c80
+      internalID: 1074123434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Card_6
+      name: "Sin t\xEDtulo-1_4"
       rect:
         serializedVersion: 2
-        x: 153
-        y: 5
-        width: 4
-        height: 11
+        x: 169
+        y: 0
+        width: 32
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 383ab2464defc184c80d75097fa8b8dd
-      internalID: -1196364824
+      spriteID: ee7319b95a062df4db4ec0486013f082
+      internalID: -192146652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Card_7
+      name: "Sin t\xEDtulo-1_5"
       rect:
         serializedVersion: 2
-        x: 175
-        y: 6
-        width: 8
-        height: 11
+        x: 211
+        y: 0
+        width: 33
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,8 +247,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4d94cd34e29efb44bbdce268cec31a7
-      internalID: -1579812850
+      spriteID: 9ee942c7f0dfb9a4d99093db856e5ba5
+      internalID: -106887909
       vertices: []
       indices: 
       edges: []
@@ -306,14 +264,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Card_5: -337486890
-      Card_4: 318227774
-      Card_1: -1256869348
-      Card_0: 1139358101
-      Card_3: 1306386644
-      Card_2: -117322179
-      Card_7: -1579812850
-      Card_6: -1196364824
+      "Sin t\xEDtulo-1_1": -90522106
+      "Sin t\xEDtulo-1_3": 1074123434
+      "Sin t\xEDtulo-1_2": -1689614731
+      "Sin t\xEDtulo-1_5": -106887909
+      "Sin t\xEDtulo-1_4": -192146652
+      "Sin t\xEDtulo-1_0": 1043137876
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
