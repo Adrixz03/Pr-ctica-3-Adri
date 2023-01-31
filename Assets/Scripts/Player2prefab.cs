@@ -19,7 +19,7 @@ public class Player2prefab : MonoBehaviour
         //Indicamos que al pulsar el click izquierdo se ivoque a nuestro player2
         if (Input.GetMouseButtonDown(0))
         {
-            GameObject clon1 = Instantiate(Player2, transform.position, Quaternion.identity);
+            GameObject clon1 = Instantiate(Player2, transform.position, Quaternion.identity); //Identidad de la rotacion en 0
             clon1.GetComponent<Player2>();
             animator2.Play("Spawn");
 

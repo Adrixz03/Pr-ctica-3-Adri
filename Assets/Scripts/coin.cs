@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class coin : MonoBehaviour
 {
+    [SerializeField] private float AmountOfPoints;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +18,7 @@ public class coin : MonoBehaviour
         //Al pasar por encima de la moneda se destruya
         if (collision.CompareTag("Player"))
         {
+            GameManager.instance.AddPunt(AmountOfPoints);
             Destroy(this.gameObject);
         }
     }
