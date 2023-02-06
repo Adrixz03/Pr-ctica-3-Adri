@@ -12,6 +12,8 @@ public class Player : MonoBehaviour
     public float rayDistance = 1.5f;
     private Animator animator;
     SpriteRenderer rend;
+    
+
 
 
     // Start is called before the first frame update

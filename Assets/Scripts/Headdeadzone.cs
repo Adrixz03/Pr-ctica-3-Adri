@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Headdeadzone : MonoBehaviour
 {
+    [SerializeField] private float AmountOfPoints;
     void Start()
     {
     }
@@ -12,8 +13,8 @@ public class Headdeadzone : MonoBehaviour
             //Deadzone de la cabeza del enemigo
             if (collision.GetComponent<Player>())
             {
-
-                Destroy(gameObject.transform.parent.gameObject);
+            GameManager.instance.AddPunt(AmountOfPoints);
+            Destroy(gameObject.transform.parent.gameObject);
 
 
             }

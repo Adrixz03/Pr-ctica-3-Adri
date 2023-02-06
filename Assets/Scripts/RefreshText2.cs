@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RefreshText : MonoBehaviour
+public class RefreshText2 : MonoBehaviour
 {
-    public TMPro.TMP_Text refresh;
+    public TMPro.TMP_Text refreshtime;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +14,6 @@ public class RefreshText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        refresh.text = "Points: " + GameManager.instance.GetPunt(); 
+        refreshtime.text = "" + GameManager.instance.GetTime().ToString("0.00"); 
     }
 }

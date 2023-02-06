@@ -8,11 +8,11 @@ public class Enemy : MonoBehaviour
     private const string Tag = "Player";
     public Transform ObjectFollow = null;
     public float speed = 2;
-
-private void OnCollisionEnter2D(Collision2D other)//metodo destroy
+    
+    private void OnCollisionEnter2D(Collision2D other)//metodo destroy
 {
     if (other.collider.GetComponent<Player>())
-    { 
+    {
         Destroy(other.gameObject);
         SceneManager.LoadScene("SampleScene");
         }
