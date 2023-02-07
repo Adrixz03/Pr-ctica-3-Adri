@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: d9b1f89c7179dc9409998949b171fc60
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Funky Monkey
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2bdb67a437826054c94c401f7bebdfeb, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
