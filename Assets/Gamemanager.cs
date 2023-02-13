@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
-{
+{ //Declaramos las variables de la puntuación, el temporizador e instance.
     public static GameManager instance;
-    private float puntuacion;
-    private float time;
+    public float puntuacion;
+    public float time;
 
     // Start is called before the first frame update
     void Awake()

@@ -12,7 +12,10 @@ public class Player : MonoBehaviour
     public float rayDistance = 1.5f;
     private Animator animator;
     SpriteRenderer rend;
-    
+    public AudioClip jumpSound;
+    [Range(0, 1)]
+    public float volumeMusic;
+
 
 
 
@@ -52,6 +55,7 @@ public class Player : MonoBehaviour
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
             animator.Play("salto");
+            AudioManager.instance.PlayAudio(jumpSound, volumeMusic);
         }
     }
     bool IsGrounded()

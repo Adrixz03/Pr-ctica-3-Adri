@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class coin : MonoBehaviour
 {
+    public AudioClip CoinSound;
+    [Range(0, 1)]
+    public float volumeMusic;
     [SerializeField] private float AmountOfPoints;
    
     // Start is called before the first frame update
@@ -20,6 +23,7 @@ public class coin : MonoBehaviour
         {
             GameManager.instance.AddPunt(AmountOfPoints);
             Destroy(this.gameObject);
+            AudioManager.instance.PlayAudio(CoinSound, volumeMusic);
         }
     }
 }

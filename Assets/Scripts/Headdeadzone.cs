@@ -5,6 +5,9 @@ using UnityEngine;
 public class Headdeadzone : MonoBehaviour
 {
     [SerializeField] private float AmountOfPoints;
+    public AudioClip KillSound;
+    [Range(0, 1)]
+    public float volumeMusic;
     void Start()
     {
     }
@@ -15,8 +18,7 @@ public class Headdeadzone : MonoBehaviour
             {
             GameManager.instance.AddPunt(AmountOfPoints);
             Destroy(gameObject.transform.parent.gameObject);
-
-
+            AudioManager.instance.PlayAudio(KillSound, volumeMusic);
             }
         }
     }

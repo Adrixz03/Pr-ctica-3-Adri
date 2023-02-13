@@ -24,6 +24,8 @@ public class Paused : MonoBehaviour
     public void reiniciar()
     {
         Time.timeScale = 1f;
+        GameManager.instance.time = 0;
+        GameManager.instance.puntuacion = 0;
         SceneManager.LoadScene("SampleScene");
     }
 
